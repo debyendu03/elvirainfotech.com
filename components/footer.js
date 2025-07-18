@@ -1,5 +1,7 @@
 function footer() {
-    return`   <div class="footer-section">
+  return `
+   <link rel="stylesheet" href="../css/header.css" />
+     <div class="footer-section">
       <div class="footer-container">
         <div class="desc-box">
           <div class="img-container">
@@ -71,12 +73,12 @@ function footer() {
     <!--  -->
     <div class="copyright-section">
       <p>Copyright Elvira Infotech 2025</p>
-    </div>`
+    </div>`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    const footerContainer = document.getElementById("footer-placeholder");
-    if (footerContainer) {
-        footerContainer.innerHTML=footer()
-    }
-})
+  const footerContainer = document.getElementById("footer-placeholder");
+  if (footerContainer) {
+    footerContainer.innerHTML = footer();
+  }
+});
