@@ -1,11 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
 body p {
   font-weight: 200;
   font-style: normal;
   word-spacing: 2px;
-}
-body {
-  margin: 0;
-  padding: 0;
 }
 /* header section */
 .top-header-container {
@@ -54,7 +55,6 @@ body {
 }
 .bottom-header-container .logo p {
   margin: 0;
-  /* font-family: sans-serif; */
   font-size: 12px;
   word-spacing: 1px;
 }
@@ -138,7 +138,6 @@ body {
 }
 .contact-us-box h3 {
   color: #bbbcbf;
-  /* font-family: "Sofia Sans Condensed", sans-serif; */
   font-size: 20px;
   font-weight: 250;
   border-bottom: 1px solid #44464f;
@@ -194,7 +193,6 @@ body {
 /* newsletter section inside footer */
 .newsletter-box h3 {
   color: #bbbcbf;
-  /* font-family: "Sofia Sans Condensed", sans-serif; */
   font-size: 20px;
   font-weight: 250;
   border-bottom: 1px solid #44464f;

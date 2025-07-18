@@ -16,7 +16,6 @@
   line-height: 26px;
 }
 .why-choose-us-heading-div h2 {
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -63,7 +62,6 @@
   width: fit-content;
   height: fit-content;
   margin: 0;
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;

@@ -14,7 +14,6 @@
 }
 .address-contact-container .address-div h2 {
   text-transform: uppercase;
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 300;
   font-size: 25px;
   letter-spacing: 2px;
@@ -49,12 +48,10 @@
 .address-contact-container .address-div p {
   width: 98%;
   text-align: center;
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 350;
 }
 .contact-mail span,
 .contact-number span {
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 350;
 }
 
@@ -95,7 +92,6 @@
   line-height: 30px;
   height: 150px;
   outline: none;
-  font-family: sans-serif;
   font-weight: normal;
   font-size: 15px;
   resize: none;
