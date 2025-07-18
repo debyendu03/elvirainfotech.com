@@ -1,6 +1,5 @@
-
 function getHeaderHTML() {
-    return `
+  return `
         <link rel="stylesheet" href="../css/header.css" />
        <header>
       <div class="top-header">
@@ -67,12 +66,12 @@ function getHeaderHTML() {
         </div>
       </nav>
     </header>
-    `
+    `;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const headerContainer = document.getElementById('header-placeholder');
-    if (headerContainer) {
-        headerContainer.innerHTML = getHeaderHTML();
-    }
+document.addEventListener("DOMContentLoaded", () => {
+  const headerContainer = document.getElementById("header-placeholder");
+  if (headerContainer) {
+    headerContainer.innerHTML = getHeaderHTML();
+  }
 });
