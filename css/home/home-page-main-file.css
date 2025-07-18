@@ -4,3 +4,8 @@ body {
   font-family: "Sofia Sans Condensed", sans-serif;
   color: #09192e;
 }
+.main-banner-div img {
+  box-shadow: 1px 1px 15px 2px #a3a2a2;
+  height: auto;
+  width: 100%;
+}
