@@ -1,18 +1,15 @@
-.main-banner-div img {
-  box-shadow: 1px 1px 15px 2px #a3a2a2;
-  height: auto;
-  width: 100%;
-}
 .who-we-are-sec {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 60px 0 40px 0;
+  align-items: center;
 }
 .who-we-are-sec .who-we-are-sec-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
+  padding: 55px 0 30px 0;
 }
 .who-we-are-sec-text-container .who-we-are-sec-text {
   display: flex;
@@ -30,4 +27,75 @@
 }
 .who-we-are-sec-text-p p {
   line-height: 1.5rem;
+}
+
+/* who we are panel section */
+.who-we-are-panel {
+  width: 99vw;
+}
+
+.who-we-are-panel .who-we-are-panel-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.col-app-dev-block,
+.col-web-design-block,
+.col-specialist-dev-services-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9fdff;
+}
+
+.text-box {
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-desc {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-desc h3 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 0;
+  width: 80%;
+  margin-bottom: 0.4rem;
+}
+
+.text-desc p {
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0;
+  width: 70%;
+  line-height: 1.5rem;
+}
+
+.img-box {
+  background-color: #095358;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.who-we-are-panel .img-box img {
+  height: 250px;
+  width: 250px;
+  padding: 20px 128px;
+}
+
+#img-box-web-design {
+  background-color: #22beca;
 }
