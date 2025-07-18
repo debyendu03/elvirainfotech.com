@@ -1,5 +1,4 @@
 body p {
-  font-family: "Sofia Sans Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
   word-spacing: 2px;
@@ -8,87 +7,83 @@ body {
   margin: 0;
   padding: 0;
 }
-.why-choose-us-section {
-  width: 99.03vw;
-  padding-bottom: 40px;
-}
-.why-choose-us-heading-div {
+/* header section */
+.top-header-container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 15px;
+  justify-content: center;
 }
-.why-choose-us-heading-div p {
-  color: #151823;
-  width: 400px;
-  text-align: center;
-  font-weight: normal;
-  line-height: 26px;
-}
-.why-choose-us-heading-div h2 {
-  font-family: "Sofia Sans Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 40px;
-  line-height: 38px;
-  letter-spacing: 6px;
-  word-spacing: 5px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-.why-choose-us-heading-div h2::after {
-  content: "";
-  display: inline-block;
-  width: 40px;
-  height: 8px;
-  background-color: #0dd6f8;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
+.top-header-container .top-header-wrap #follow-us-text {
+  font-weight: 100;
 }
 
-.why-choose-us-desc-div {
+.top-header-container .top-header-wrap ul {
+  list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 170px 0 170px;
+  padding: 0;
 }
-
-.box {
+.top-header-container .top-header-wrap li {
+  text-decoration: none;
+  margin-left: 25px;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  border: 1px solid rgb(186, 186, 186);
-  border-radius: 10px;
-  padding: 25px 25px 10px 25px;
 }
-
-.box i {
-  width: fit-content;
-  height: fit-content;
+.top-header-container .top-header-wrap li a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: black;
 }
-.box h3 {
-  width: fit-content;
-  height: fit-content;
+.top-header-container .top-header-wrap {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.bottom-header {
+  width: 99.91%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+.bottom-header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 10px 0;
+  align-items: center;
+}
+.bottom-header-container .logo p {
   margin: 0;
-  font-family: "Sofia Sans Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 250;
-  font-style: normal;
-  font-size: 20px;
+  /* font-family: sans-serif; */
+  font-size: 12px;
+  word-spacing: 1px;
 }
-.box p {
-  width: fit-content;
-  height: fit-content;
-  color: #151823;
-  font-weight: normal;
-  line-height: 26px;
-  text-align: center;
-  width: 250px;
+.bottom-header-container .logo img {
+  width: 150px;
+  height: auto;
+}
+.bottom-header-container .sections ul {
+  list-style-type: none;
+  display: flex;
 }
 
+.bottom-header-container .sections li {
+  margin-left: 35px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #21242e;
+  cursor: pointer;
+}
+
+.bottom-header-container .sections ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-header-container .sections li a:hover {
+  color: #0dd6f8;
+}
+/* footer section */
 .footer-section {
   background-color: #151823;
   padding: 40px 0 0 0;
@@ -104,7 +99,6 @@ body {
   width: 69%;
 }
 /* description section inside footer */
-
 .footer-container .desc-box .img-container {
   display: flex;
   align-items: center;
@@ -125,7 +119,6 @@ body {
   font-size: 18px;
   /* word-spacing: 2px; */
 }
-
 .social-links i img {
   justify-content: space-between;
   filter: invert(100%);
@@ -138,17 +131,14 @@ body {
 .social-links i:nth-child(4) {
   padding: 0 0 0 20px;
 }
-
 /* contact section inside footer */
-
 .contact-us-box p {
   color: #858687;
   font-size: 18px;
 }
-
 .contact-us-box h3 {
   color: #bbbcbf;
-  font-family: "Sofia Sans Condensed", sans-serif;
+  /* font-family: "Sofia Sans Condensed", sans-serif; */
   font-size: 20px;
   font-weight: 250;
   border-bottom: 1px solid #44464f;
@@ -201,11 +191,10 @@ body {
   font-weight: normal;
   cursor: pointer;
 }
-
 /* newsletter section inside footer */
 .newsletter-box h3 {
   color: #bbbcbf;
-  font-family: "Sofia Sans Condensed", sans-serif;
+  /* font-family: "Sofia Sans Condensed", sans-serif; */
   font-size: 20px;
   font-weight: 250;
   border-bottom: 1px solid #44464f;
@@ -251,7 +240,6 @@ body {
   border: 2px solid #0dd6f8;
   cursor: pointer;
 }
-
 /* copyright-section */
 .copyright-section {
   background-color: #1b2032;
@@ -265,82 +253,3 @@ body {
   font-weight: 500;
   margin: 10px 0;
 }
-
-.top-header-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.top-header-container .top-header-wrap #follow-us-text {
-  /* font-family: "Sofia Sans Condensed", sans-serif; */
-  font-weight: 100;
-}
-
-.top-header-container .top-header-wrap ul {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-}
-.top-header-container .top-header-wrap li {
-  text-decoration: none;
-  margin-left: 25px;
-  display: flex;
-  align-items: center;
-}
-.top-header-container .top-header-wrap li a {
-  text-decoration: none;
-  margin-left: 5px;
-  color: black;
-}
-.top-header-container .top-header-wrap {
-  display: flex;
-  width: 70%;
-  justify-content: space-between;
-}
-.bottom-header{
-  width: 99.91%;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-top: 1px solid rgb(226, 226, 226);
-}
-.bottom-header-container {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  padding: 10px 0;
-  align-items: center;
-}
-.bottom-header-container .logo p {
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 12px;
-  word-spacing: 1px;
-}
-.bottom-header-container .logo img {
-  width: 150px;
-  height: auto;
-}
-.bottom-header-container .sections ul {
-  list-style-type: none;
-  display: flex;
-}
-
-.bottom-header-container .sections li {
-  margin-left: 35px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #21242e;
-  cursor: pointer;
-}
-
-.bottom-header-container .sections ul li a{
-  text-decoration: none;
-  color: black;
-}
-
-.bottom-header-container .sections li a:hover {
-  color: #0dd6f8;
-}
-
- 
