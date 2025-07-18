@@ -1,0 +1,14 @@
+.map-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.map-section div {
+  width: 70%;
+  /* height: 100%; */
+  margin: 40px 0 10px 0;
+  box-shadow: 1px 1px 10px 2px #868585;
+}
+.map-section div iframe {
+  width: 100%;
+}
