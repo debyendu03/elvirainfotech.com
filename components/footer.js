@@ -1,6 +1,6 @@
 function footer() {
   return `
-   <link rel="stylesheet" href="../css/header.css" />
+   <link rel="stylesheet" href="../css/header-and-footer/footer.css" />
      <div class="footer-section">
       <div class="footer-container">
         <div class="desc-box">

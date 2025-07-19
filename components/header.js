@@ -1,6 +1,6 @@
 function getHeaderHTML() {
   return `
-        <link rel="stylesheet" href="../css/header.css" />
+        <link rel="stylesheet" href="../css/header-and-footer/header.css" />
        <header>
       <div class="top-header">
         <div class="top-header-container">
