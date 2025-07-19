@@ -10,7 +10,7 @@
 }
 .why-choose-us-heading-div p {
   color: #151823;
-  width: 400px;
+  width: 550px;
   text-align: center;
   font-weight: normal;
   line-height: 26px;
@@ -65,6 +65,7 @@
   font-optical-sizing: auto;
   font-weight: 250;
   font-style: normal;
+  text-align: center;
   font-size: 20px;
 }
 .box p {
