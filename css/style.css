@@ -1,0 +1,15 @@
+/* home page  */
+@import url("./home/counter-section.css");
+@import url("./home/home-page-main-file.css");
+@import url("./home/join-our-team-img.css");
+@import url("./home/who-we-are-sec.css");
+
+/* header and footer */
+@import url("./header-and-footer/header.css");
+@import url("./header-and-footer/footer.css");
+
+/* contact us page */
+@import url("./contact-us/address-and-contact-form-section.css");
+@import url("./contact-us/contact-us-banner-section.css");
+@import url("./contact-us/map-section.css");
+@import url("./contact-us/why-choose-us-section.css");

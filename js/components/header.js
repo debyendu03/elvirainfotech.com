@@ -1,5 +1,5 @@
-function getHeaderHTML() {
-  return `
+export default function header() {
+  const html = `
         <link rel="stylesheet" href="../css/header-and-footer/header.css" />
        <header>
       <div class="top-header">
@@ -67,11 +67,7 @@ function getHeaderHTML() {
       </nav>
     </header>
     `;
+  return html;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const headerContainer = document.getElementById("header-placeholder");
-  if (headerContainer) {
-    headerContainer.innerHTML = getHeaderHTML();
-  }
-});
+

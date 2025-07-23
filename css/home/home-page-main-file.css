@@ -1,12 +1,9 @@
-@import url("/css/home/who-we-are-sec.css");
-@import url("/css/home/join-our-team-img.css");
-@import url("/css/home/counter-section.css");
 body {
-  font-family: "Sofia Sans Condensed", sans-serif;
-  color: #09192e;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    color: #09192e;
 }
 .main-banner-div img {
-  box-shadow: 1px 1px 15px 2px #a3a2a2;
-  height: auto;
-  width: 100%;
+    box-shadow: 1px 1px 15px 2px #a3a2a2;
+    height: auto;
+    width: 100%;
 }

@@ -1,5 +1,5 @@
-function footer() {
-  return `
+export default function footer() {
+  const html = `
    <link rel="stylesheet" href="../css/header-and-footer/footer.css" />
      <div class="footer-section">
       <div class="footer-container">
@@ -74,11 +74,6 @@ function footer() {
     <div class="copyright-section">
       <p>Copyright Elvira Infotech 2025</p>
     </div>`;
+  return html;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const footerContainer = document.getElementById("footer-placeholder");
-  if (footerContainer) {
-    footerContainer.innerHTML = footer();
-  }
-});
